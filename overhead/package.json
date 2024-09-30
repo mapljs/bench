@@ -1,0 +1,17 @@
+{
+  "name": "overhead",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@mapl/app": "^0.0.10",
+    "elysia": "^1.1.17",
+    "hono": "^4.6.3",
+    "mitata": "^1.0.10"
+  }
+}
