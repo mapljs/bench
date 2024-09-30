@@ -3,7 +3,6 @@ import { summary, bench, run } from 'mitata';
 import elysia from './src/elysia.ts';
 import hono from './src/hono.ts';
 import mapl from './src/mapl.ts';
-import { memoryUsage } from 'bun:jsc';
 
 // Import all stuff here
 const fetchers: Record<string, { fetch: (req: Request) => any }> = {
